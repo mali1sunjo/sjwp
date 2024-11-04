@@ -1,0 +1,41 @@
+/* univerzalni selektor */
+
+*{
+    background-color: cornflowerblue;
+}
+
+
+
+h1 {
+
+    color: blue;
+
+}
+
+.prvi{
+
+    color: antiquewhite;
+
+}
+.drugi{
+
+    color: aqua;
+
+}
+.treci{
+
+    color: aquamarine;
+
+}
+
+/* id selector */
+#cetvri {
+    color: chocolate;
+}
+
+p[draggable="true"]{
+    color: darkblue;
+}
+p[draggable="false"]{
+    color: brown;
+}
