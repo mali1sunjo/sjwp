@@ -43,19 +43,19 @@ body{
 }
 
 .li1{
-    list-style-type: circle;
+    list-style-type: lower-greek;
 }
 
 .li2{
-    list-style-type: square;
+    list-style-type: georgian;
 }
 
 .li3{
-    list-style-type: upper-roman;
+    list-style-type: lower-roman;
 }
 
 .li4{
-    list-style-type: lower-alpha;
+    list-style-type: upper-alpha;
 }
 
 .highlight{
