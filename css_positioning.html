@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS pozicioniranje</title>
+
+    <style>
+        .relative{
+            width: 450px;
+            height: 300px;
+            background-color: aqua;
+            position: relative;
+            top:    100px;
+            left: 100px;
+        }
+        .abs1{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            left: 400px;
+            top: 100px;
+            z-index: -1;
+            
+        }
+        .abs2{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            position: absolute;
+            left: 175px;
+            top: 100px;
+
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2>CSS positioning</h2>
+
+    <div class="relative">
+
+        <div class="abs1"></div>
+        <div class="abs2"></div>
+
+    </div>
+    
+</body>
+</html>
