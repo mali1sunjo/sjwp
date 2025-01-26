@@ -12,7 +12,7 @@
     <ul>
         <li><a href="zadace/zadaca1.html">Zadaća1</a></li>
         <li><a href="zadace/zadaca2.html">Zadaća2</a></li>
-        <li>Zadaća3</li>
+        <li><a href="zadace/zadaca3.html">Zadaća3</a></li>
         <li>Zadaća4</li>
         <li>Zadaća5</li>
         <li>Zadaća6</li>
