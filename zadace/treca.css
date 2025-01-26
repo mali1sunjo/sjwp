@@ -1,0 +1,67 @@
+h1{
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: "Roboto", serif;
+    color: #4CAF50;
+}
+
+h3{
+    font-family: "Roboto", serif;
+}
+
+p{
+    font-family: "Open Sans", serif;
+}
+
+ul{
+    font-family: "Open Sans", serif;
+}
+
+body{
+    background-color: #ECEFF1;
+}
+
+/* Boja glavnog sadržaja --> body */
+
+.p1{
+    font-size: 16px;
+    color: #37474F;
+}
+
+.p2{
+    font-size: 18px;
+    color: #546E7A;
+}
+
+.p3{
+    font-size: 20px;
+    color: #78909C;
+}
+
+.li1{
+    list-style-type: circle;
+}
+
+.li2{
+    list-style-type: square;
+}
+
+.li3{
+    list-style-type: upper-roman;
+}
+
+.li4{
+    list-style-type: lower-alpha;
+}
+
+.highlight{
+    color: #FFC107;
+}
+
+#main-title{
+    font-size: 4rem;
+}
