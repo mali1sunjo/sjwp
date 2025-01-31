@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animacijecrnibox</title>
+
+    <style>
+
+        body{
+            background-color: white;
+        }
+        
+        .box{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            border:5px solid aqua;
+            border-radius: 5px;
+            
+            box-shadow: 0 0 8px aqua, 0 0 8px aqua inset;
+
+            animation-name: spin;
+            animation-play-state: running;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+        .circle{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            border:5px solid goldenrod;
+            border-top:3px solid white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            animation-name: boxx;
+            animation:1s boxx infinite;
+
+
+        }
+        
+
+        @keyframes spin {
+            0%{
+                transform: rotateX(0) rotateY(0) rotateZ(0);
+            }
+            33%{
+                transform: rotateX(180deg) rotateY(0) rotateZ(0);
+            }
+            66%{
+                transform: rotateX(0) rotateY(180deg) rotateZ(0);
+            }
+            100%{
+                text-replace: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+            }
+
+             
+            
+        }
+        @keyframes boxx {
+         
+            
+            100%{
+                transform: rotate(360deg);
+            }
+            
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="circle"></div>
+    <div class="box"></div>
+    
+</body>
+</html>
