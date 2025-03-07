@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vjezba</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f0f0f0;
+        border: 2px solid black;
+        
+    }
+
+    .container {
+        width: 600px;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .header, .footer {
+        background-color: lightblue;
+        text-align: center;
+        padding: 10px;
+        font-size: 50px;
+        font-weight: bold;
+        border: 2px solid black;
+    }
+
+    .main {
+        display: flex;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+
+    .menu, .ads {
+        background-color: plum;
+        width: 20%;
+        padding: 30px;
+        text-align: center;
+        border-right: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .content {
+        background-color: lightpink;
+        width: 60%;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid black;
+    }
+    .div{
+        
+    }
+
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">HEADER</div>
+    <div class="main">
+        <div class="menu">
+            <div>MENU</div>
+            <div>ITEM 1</div>
+            <div>ITEM 2</div>
+            <div>ITEM 3</div>
+            <div>ITEM 4</div>
+            <div>ITEM 5</div>
+        </div>
+        <div class="content">
+            <h2>CONTENT</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labois nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="ads">
+            <div><strong>AD</strong></div>
+            <div><strong>AD</strong></div>
+            
+        </div>
+
+
+    </div>
+    <div class="footer">FOOTER</div>
+</div>
+</body>
+</html>
