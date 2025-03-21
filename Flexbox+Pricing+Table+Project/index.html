@@ -10,12 +10,63 @@
     />
     <style>
       body {
+        
         font-family: "Sono", sans-serif;
       }
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
+        .pricing-container{
+          height: 100%;
+          flex-direction: column;
+        }
       }
+
+      .pricing-container{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        text-align: center;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        height: 100vh;        
+      }
+
+      .pricing-plan{
+       flex-basis: 300px;
+        background-color: gainsboro;
+        flex:1;
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 400px;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+
+      }
+      .plan-button{
+        color: #ffff;
+        background-color: #F60;
+        padding: 10px;
+        border-radius: 5px;
+        border: 0px;
+
+      }
+      .plan-features{
+        list-style-type: none;
+        
+      }
+      .plan-price{
+        font-size: 50px;
+      }
+
+
+      
+     
+
+
     </style>
   </head>
 
@@ -23,7 +74,7 @@
     <div class="pricing-container">
       <div class="pricing-plan">
         <div class="plan-title">Basic</div>
-        <div class="plan-price">$9.99/month</div>
+        <div class="plan-price"><strong>$9.99/month</strong></div>
         <ul class="plan-features">
           <li>✅ 10GB Storage</li>
           <li>✅ 1 User</li>
@@ -33,7 +84,7 @@
       </div>
       <div class="pricing-plan">
         <div class="plan-title">Standard</div>
-        <div class="plan-price">$19.99/month</div>
+        <div class="plan-price"><strong>$19.99/month</strong></div>
         <ul class="plan-features">
           <li>✅ 50GB Storage</li>
           <li>✅ 5 Users</li>
@@ -43,7 +94,7 @@
       </div>
       <div class="pricing-plan">
         <div class="plan-title">Premium</div>
-        <div class="plan-price">$49.99/month</div>
+        <div class="plan-price"><strong>$49.99/month</strong></div>
         <ul class="plan-features">
           <li>✅ 100GB Storage</li>
           <li>✅ 10 Users</li>
