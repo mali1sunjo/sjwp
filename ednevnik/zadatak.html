@@ -1,13 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>e-Dnevnik</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .gradient{
+
+        }
+
+        h2{
+            position: relative;
+            top:80px
+        }
+
+        .header {
+            background-color: #003366;
+            color: white;
+            padding: 15px;
+            font-size: 25px;
+            text-align: left;
+            font-weight: bold;
+        }
+        .login-container {
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 5px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 16px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-button:hover {
+            background-color: #004494;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    
-    
+    <div class="header">e-Dnevnik
 
+        <div class="gradient"></div>
+    </div>
+    <h2>Dobro došli</h2>
+    <div class="login-container">
+        
+        <form>
+            <label for="username">Korisničko ime:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Lozinka:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit" class="login-button">PRIJAVA</button>
+        </form>
+
+        <form action="">
+
+
+        </form>
+
+    </div>
+    <div class="footer">
+        <p>CARNET - znanje povezuje</p>
+        
+    </div>
 </body>
 </html>
