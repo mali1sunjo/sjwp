@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid vjezbe</title>
+
+    <style>
+
+        body{
+            font-size: 2.5rem;
+            font-weight: bold;
+
+
+        }
+
+        .container{
+            
+            height: 450px;
+            width: 90vw;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            
+        }
+        .gr{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+        }
+
+        .containerr{
+            height: 450px;
+            width: 90vw;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .grr{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+        }
+        .grrr{
+            
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-column: span 2;
+        }
+        .grrb{
+            
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-row: span 2;
+            
+        }
+        .container1{
+            
+            height: 450px;
+            width: 90vw;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            
+        }
+        .gr1{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-column: span 2;
+        }
+        .gr2{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+        }
+        .gr3{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-column: span 3;
+        }
+        .gr4{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-column: span 4;
+        }
+
+        .container2{
+            height: 450px;
+            width: 90vw;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr ;
+
+        }
+        .ab{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-column: span 2;
+        }
+        .be{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-row: span 2;
+        }
+        .de{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            
+        }
+        .container3{
+            height: 450px;
+            width: 90vw;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+        }
+        .Header{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-column: span 5;
+        }
+        .Sidebar{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-column: span 1;
+            grid-row: span 2;
+        }
+        .Content{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-column: span 4;
+            grid-row: span 2;
+        }
+        .Sidebar2{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-column: span 5;
+            grid-row: span 1;
+        }
+        .Footer{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+            grid-column: span 5;
+            grid-row: span 1;
+        }
+
+        .container4{
+            height: 450px;
+            width: 90vw;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr ;
+
+        }
+        .parni{
+            background-color: gray;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+        }
+        .neparni{
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius:10px ;
+        }
+       
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="gr">A</div>
+        <div class="gr">B</div>
+        <div class="gr">C</div>
+        <div class="gr">D</div>
+        <div class="gr">E</div>
+        <div class="gr">F</div>
+
+
+    </div>
+
+    <hr>
+
+    <!-- drugi -->
+    
+    <div class="container">
+        <div class="gr">D</div>
+        <div class="gr">A</div>
+        <div class="gr">F</div>
+        <div class="gr">E</div>
+        <div class="gr">B</div>
+        <div class="gr">C</div>
+
+
+    </div>
+
+
+    <!-- TRECI -->
+     <hr>
+
+    <div class="containerr">
+        <div class="grrr">A</div>
+        <div class="grrb">B</div>
+        <div class="grr">C</div>
+        <div class="grr">D</div>
+    
+
+    </div>
+
+    <hr>
+
+    <!-- cetvertg -->
+
+    <div class="container1">
+        <div class="gr1">A</div>
+        <div class="gr1">B</div>
+        <div class="gr2">C</div>
+        <div class="gr3">D</div>
+        <div class="gr4">E</div>
+        
+    </div>
+    <hr>
+
+
+    <div class="container2">
+        <div class="ab">A</div>
+        <div class="be">B</div>
+        <div class="be">E</div>
+        <div class="de">C</div>
+        <div class="de">D</div>
+    
+
+    </div>
+
+        <hr>
+
+       <!--  peti -->
+
+
+       <div class="container3">
+        <div class="Header">Header</div>
+        <div class="Sidebar">Sidebar</div>
+        <div class="Content">Content</div>
+        <div class="Sidebar2">Sidebar2</div>
+        <div class="Footer">Footer</div>
+       </div>
+
+<hr>
+       <!-- sesti -->
+
+       <div class="container4">
+        <div class="neparni">1</div>
+        <div class="parni">2</div>
+        <div class="neparni">3</div>
+        <div class="parni">4</div>
+        <div class="neparni">5</div>
+        <div class="parni">6</div>
+        <div class="neparni">7</div>
+        <div class="parni">8</div>
+        <div class="neparni">9</div>
+        <div class="parni">10</div>
+        <div class="neparni">11</div>
+        <div class="parni">12</div>
+
+
+       </div>
+<hr>
+    
+</body>
+</html>
