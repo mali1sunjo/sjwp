@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+     
+    /* Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+ */
+
+ .container{
+  
+            
+            height: 748px;
+            width: 748px;
+            display: grid;
+            
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+ }
+ .red{
+    height: 414px;
+    width: 320px;
+    background-color: #E72F24;
+    border-right: 9px solid black;
+    border-bottom: 9px solid black;
+    display: flex;
+ }
+ .White{
+  height: 414px;
+  width: 428px;
+  background-color: #F0F1EC;
+  border-bottom: 9px solid black;
+  grid-column: span 2;
+  display: flex;
+  
+ }
+ .White2{
+  height: 334px;
+  width: 320px;
+  background-color: #F0F1EC;
+  border-bottom: 9px solid black;
+  border-right: 9px solid black;
+  display: flex;
+ }
+ .White3{
+  height: 334px;
+  width: 351px;
+  background-color: #F0F1EC;
+  border-bottom: 9px solid black;
+  border-right: 9px solid black;
+  display: flex;
+  grid-column: span 1;
+ }
+ .Blue{
+  width: 68px;
+  height: 130px;
+  background-color:#004592 ;
+  border-bottom: 10px solid black;
+  display: flex;
+  order: 4;
+  
+ }
+ .White4{
+  width: 50px;
+  height: 175px;
+  background-color: #F0F1EC;
+  border-right: 9px solid black;
+  display: flex;
+  order: 3;
+ }
+ 
+ 
+ .White5{
+  width: 320px;
+  height: 20px;
+  background-color: #F0F1EC;
+  border-right: 9px solid black;
+  display: flex;
+ }
+ .Yellow{
+background-color: #F9D01E;
+width: 198px;
+height: 20px;
+border-right:9px solid black;
+display: flex;
+ }
+ .Black{
+  width: 153px;
+  height: 20px;
+  background-color: #232629;
+  border-right:9px solid black ;
+  display: flex;
+  grid-row: span 2;
+ }
+
+
+
+
+   
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="red"></div>
+    <div class="White"></div>
+    <div class="White2"></div>
+    <div class="White3"></div>
+    <div class="Blue"></div>
+    <div class="White4"></div>
+    <div class="White5"></div>
+    <div class="Yellow"></div>
+    <div class="Black"></div>
+
+  </div>
+
+
+</body>
+
+</html>
