@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O meni</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 5px;
+            font-weight: 700;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .profile {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .profile h2 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .profile p {
+            font-size: 1rem;
+            color: #666;
+        }
+        .content {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 1rem;
+            color: #333;
+        }
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="/Moja_osobna_aplikacija/glavni.html">Glavna</a>
+        <a href="O meni.html">O meni</a>
+        
+    </div>
+
+<div class="container">
+    <div class="profile">
+        <img src="gundd.jfif" alt="Profilna slika">
+        <h2>Ante Dominkovic</h2>
+        <p>Učenik</p>
+    </div>
+    <div class="content">
+        <h3>O meni</h3>
+        <p>
+            Zivim u Gundincima. Volim se druziti i volio bih igrati nogomet svaki dan. 
+            Volim jesti slatko, pogotovo cokoladu.
+            Prolazim skolske godine sa vrlo dobrim i odlicnim uspjehom.
+            Pohadao sam osnovnu skolu Augusta Senoe u Gundincima.
+            Isao sam na mnoga natjecanja kao npr.(Sah, Geografija, Povijest...).
+            
+
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
