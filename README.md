@@ -14,7 +14,7 @@
         <li><a href="zadace/zadaca2.html">Zadaća2</a></li>
         <li><a href="zadace/zadaca3.html">Zadaća3</a></li>
         <li><a href="zadace/zadaca4.html">Zadaća4</a></li>
-        <li>Zadaća5</li>
+        <li><a href="/zadace/Moja_osobna_aplikacija/glavni.html">Zadaća5</a></li>
         <li>Zadaća6</li>
     </ul>
 
